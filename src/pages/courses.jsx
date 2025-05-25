@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import NavBar from './navBar';
-import Footer from './footer';
+import NavBar from '../components/navBar';
+import Footer from '../components/footer';
 const free = <h1 className='text-red-500'> Free</h1>
 const courseDetails = [
   { title: 'Diploma in IT', details: 'this is the 3 years structure course with very good subjects with 6 semesters', fee: 'Rs.55,000 per year' },

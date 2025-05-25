@@ -3,8 +3,8 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
-    const ctvt = "./public/logo/ctevtlog.Png";
-    const logo = "./public/logo/logo.Png";
+    const ctvt = "./public/logo/ctevtlog.png";
+    const logo = "./public/logo/logo.png";
     const [isSmallScreen, setIsSmallScreen] = useState(false);
     const [isNavOpen, setIsNavOpen] = useState(false);
 
@@ -44,6 +44,8 @@ const NavBar = () => {
                         <Link to="/courses"><li className="Homebtn">Courses</li></Link>
                         <Link to="/teacher"><li className="Homebtn">Teachers</li></Link>
                         <Link to="/contact"><li className="Homebtn">Contact</li></Link>
+                        <Link to="/about"><li className="Homebtn">About Us</li></Link>
+
                     </ul>
                 )}
                 {!isSmallScreen && (
@@ -59,6 +61,8 @@ const NavBar = () => {
                     <Link to="/courses" className="text-white hover:text-gray-300">Courses</Link>
                     <Link to="/teacher" className="text-white hover:text-gray-300">Teachers</Link>
                     <Link to="/contact" className="text-white hover:text-gray-300">Contact</Link>
+                    <Link to="/about" className="text-white hover:text-gray-300">About Us</Link>
+
                 </div>
             )}
         </>

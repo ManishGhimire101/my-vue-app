@@ -1,5 +1,5 @@
-import NavBar from './navBar';
-import Footer from './footer'; 
+import NavBar from '../components/navBar';
+import Footer from '../components/footer'; 
  
  const Gallery = () => {
     return (

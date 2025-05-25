@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBar from './navBar';
-import Footer from './footer';
+import NavBar from '../components/navBar';
+import Footer from '../components/footer';
 
 const teachers = [
   { name: 'Khagendra Misra',position:'Principal', contact: '+9770000000', photo: '/image/image1.avif' },

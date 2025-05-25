@@ -1,9 +1,10 @@
 import './App.css';
 import Home from './pages/home';
-import Gallery from './components/gallery';
-import Contact from './components/contact';
-import Courses from './components/courses';
-import Teacher from './components/teacher';
+import Gallery from './pages/gallery';
+import Contact from './pages/contact';
+import Courses from './pages/courses';
+import Teacher from './pages/teacher';
+import About from './pages/about';
 import { Routes, Route } from 'react-router-dom';
 
 
@@ -16,11 +17,13 @@ function App() {
     
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
+         <Route path="/home" element={<Home />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/teacher" element={<Teacher />} />
         <Route path="/courses" element={<Courses />} />
+        <Route path="/about" element={<About />} />
+
       </Routes>
     </>
   )

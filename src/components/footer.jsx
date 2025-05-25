@@ -13,7 +13,7 @@ const Footer = () => {
                         <div className="space-y-2">
                             <h3 className="font-bold text-lg mb-4">Company</h3>
                             <ul className="space-y-2">
-                                <li><Link to="#" className="hover:underline">About us</Link></li>
+                                <li><Link to="/about" className="hover:underline">About us</Link></li>
                                 <li><Link to="#" className="hover:underline">Team members</Link></li>
                                 <li><Link to="/contact" className="hover:underline">Contact</Link></li>
                                 <li><Link to="/gallery" className="hover:underline">Gallery</Link></li>
@@ -41,9 +41,9 @@ const Footer = () => {
                         <div className="space-y-2">
                             <h3 className="font-bold text-lg mb-4">Contact</h3>
                             <div className="space-y-2">
-                                <p>98000000 (private/pdf)</p>
+                                <p>98000000 (Principal)</p>
                                 <p>03123173 (Assistant Principal)</p>
-                                <p>07110101 (independent)</p>
+                                <p>07110101 (Accountant)</p>
                             </div>
                         </div>
                     </div>
